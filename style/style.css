@@ -1,0 +1,55 @@
+h1{
+	text-align: center;
+    font-size: 4em;
+    text-shadow: 0.1em 0.1em 0.2em #000080;
+    margin-bottom: auto;
+    margin-top: auto;
+    color: #2C75FF;
+    font-family: fantasy, serif;
+}
+article{
+    background-color: rgba(163,186,204,0.8);
+    display: inline-block;
+    margin-left: 330px;
+    margin-top: 50px;
+    font-family: fantasy, serif;
+}
+img{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+ul{
+	list-style: none;
+}
+
+body {
+    background-image: url(j.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: fantasy, serif;
+    background-attachment: fixed;
+    
+} 
+
+.margin {
+    margin-left: auto;
+    margin-bottom: auto;
+
+}
+.img:hover img{
+    transform:scale(1.2);
+
+}
+header{
+    background-color: rgba(0,191,255,0.8);
+}
+
+.option{
+    font-size: 3em;
+    text-align: center;
+}
+input,label{
+    color:#2C75FF;
+}
