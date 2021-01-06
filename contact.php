@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<link rel="stylesheet"  href="style/style2.css">
-	<meta charset="utf-8">
-	<link rel="icon" href="image/logo.png">
-	<title>Manga References</title>
-</head>
-<body>
-	<header>
-		<h1 class="margin"><a href="../index.html"><img src="image/logo.png" height="120" width="120" alt="logo du site"></a>Manga References</h1>
-	</header>
+<?php require "header.php"; ?>
 	<br><br><br><br><br>
 	<article>
 	<form method="post" action="receive.php">
@@ -29,7 +18,7 @@
 
 <br>
 
-</fieldset>
+<fieldset>
 
 			<label for="pack">Raison du message : </label>
 			<br>
@@ -40,7 +29,7 @@
 				<option>Il manque des informations</option>
 			</select><br>
 		
-<fieldset>
+</fieldset>
 
 
 		<label for="addreq">Questions :</label><br>

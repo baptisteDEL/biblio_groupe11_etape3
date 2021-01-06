@@ -1,26 +1,21 @@
-h1{
-	text-align: center;
-    font-size: 4em;
-    text-shadow: 0.1em 0.1em 0.2em #000080;
-    margin-bottom: auto;
-    margin-top: auto;
-    color: #2C75FF;
-    font-family: fantasy, serif;
-}
-article{
+ article{
     background-color: rgba(163,186,204,0.8);
     display: inline-block;
-    margin-left: 330px;
+    margin-left: 50px;
+    margin-right: 50px;
     margin-top: 50px;
-    font-family: fantasy, serif;
+    border-radius: 15px;
+    font-family: fantasy, sans-serif;
+    
 }
-img{
-    margin-left: 120px;
+.img{
+    margin-left: 63px;
     margin-top: 20px;
+   
 }
 
 ul{
-	list-style: none;
+  list-style: none;
 }
 
 body {
@@ -30,26 +25,26 @@ body {
     background-size: cover;
     font-family: fantasy, serif;
     background-attachment: fixed;
+    margin: 0;
+    font-family: fantasy, sans-serif;
+
     
 } 
 
-.margin {
-    margin-left: auto;
-    margin-bottom: auto;
-
-}
 .img:hover img{
     transform:scale(1.2);
 
 }
-header{
-    background-color: rgba(0,191,255,0.8);
-}
 
-.option{
-    font-size: 3em;
-    text-align: center;
-}
+
 input,label{
     color:#2C75FF;
 }
+
+
+.grille{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+
