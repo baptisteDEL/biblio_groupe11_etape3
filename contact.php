@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet"  href="style/style.css">
+	<link rel="stylesheet"  href="style/style2.css">
 	<meta charset="utf-8">
 	<link rel="icon" href="image/logo.png">
 	<title>Manga References</title>
@@ -29,7 +29,7 @@
 
 <br>
 
-<fieldset>
+</fieldset>
 
 			<label for="pack">Raison du message : </label>
 			<br>
@@ -40,7 +40,7 @@
 				<option>Il manque des informations</option>
 			</select><br>
 		
-</fieldset>
+<fieldset>
 
 
 		<label for="addreq">Questions :</label><br>

@@ -7,19 +7,13 @@
 	<title>Manga References</title>
 </head>
 <body>
-    <header>
-        
-  
-     <header>
+	<header>
 		<h1 class="margin"><img src="image/logo.png" height="120" width="120" alt="Logo du site">Manga References</h1>
 		<div class="option">
 			<a href="contact.php">Contact</a>
 		</div>
 		</header>
-    </header>
-
-              
-		<main class="grille">
+		<main>
 			<article> 
 				<div class="img">
 				<a href="redirection/9782811607494.php"><img src="image/Tome_1_SNK.jpg" height="193" width="132" alt="Tome_1_SNK">
@@ -29,7 +23,7 @@
 					<li><strong>Nom</strong> : L'Attaque des Titans</li>
 					<li><strong>Ecrivain</strong> : Hajime isayama</li>
 					<li><strong>Genre</strong> : Manga</li>
-				</ul>  
+				</ul>
 			</article>
 			<article>
 				<div class="img">
